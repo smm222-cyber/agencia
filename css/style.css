@@ -1,0 +1,294 @@
+body{
+    font-family:'Raleway', sans-serif;
+    color:#2A7C6F ;
+        background-color: rgb(255 254 252);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+
+nav{
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 3.5%;
+}
+nav ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+nav a
+{
+    color:#2A7C6F ;
+    text-decoration:none ;
+    padding: 8px 13px;
+    font-size: small;
+   
+
+}
+nav a:hover
+{
+    color:#318a7b ;
+    
+}
+.texto-footer{
+    font-size: small;
+
+}
+.imagenes-logo img{
+    width: 250px;
+    margin: 50px;
+}
+.imagenes-logo, .imagenes-redes{
+    display: flex;
+    justify-content: center;
+ 
+
+}
+.imagenes-redes img{
+    width: 25px;
+    margin: 10px;
+   
+}
+.texto-columna{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.metro, h1 {
+    text-align: center;
+    font-weight: 500px;
+}
+ h3{
+    text-align: center;
+    font-weight: 300;
+   
+}
+.servicios { 
+    display: flex; 
+    justify-content: space-around; 
+    text-align: center; 
+} 
+.servicios { 
+    width: 30%; 
+} 
+.servicios img { 
+    width: 100%; 
+    height: auto; 
+} 
+.Servicios, h2{
+    padding: 2%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.2; 
+}
+.Servicios, p{
+font-size: 15px;
+line-height: 1.2; 
+}
+/* contacto */
+.link, h2{
+    text-align: center;
+    text-align: center;
+    font-weight: 400;
+    color: #2a7c6f;
+   
+
+}
+.link, h1{
+    font-size: 45px;
+    color: #2a7c6f;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    line-height: 1.2; 
+}
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+}
+.btn {
+  
+    margin: 0 auto; 
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #2a7c6f;
+    border: 2px solid #2a7c6f;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 0; 
+    text-align: center;
+   
+   
+   }
+
+.btn:hover {
+    color:#2a7c6f;;
+    background-color: white;
+    border-color:#2a7c6f;;
+}
+
+
+p {
+    text-align: center;
+    color: #198754;
+    margin-bottom: 32px;
+    line-height: 1.2; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 0.3rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 16px;
+    border: 1px solid #2b665e;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #2b665e;
+    font-size: 16px;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #204b47;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+  
+}
+.service {
+    width: 200px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+.service img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.service h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.button-container {
+    margin-top: 20px;
+}
+.button-container a {
+    margin: 0 auto; 
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #2a7c6f;
+    border: 2px solid #2a7c6f;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 0; 
+    text-align: center;
+   
+   
+}
+.button-container a:hover {
+    color:#2a7c6f;;
+    background-color: white;
+    border-color:#2a7c6f;;
+}
+.container-contactanos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px; 
+    padding: 20px;
+  }
+  
+  .imagen-container {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .imagen {
+    max-width: 100%; 
+    height: auto;
+    margin-right: 2px; 
+  }
+  
+  .texto-container h1 {
+    font-size: 2.5rem;
+    color: #2a7c6f;
+    margin-bottom: 16px;
+    line-height: 1.2; 
+  }
+  
+  .texto-container p {
+    font-size: 16px;
+    color: #2b665e;
+    margin-bottom: 16px;
+    
+  }
+
+  .viaje img {
+    width: 100%; 
+    
+  }
+
+
+/* Nuevo Acerca */
+.texto-columna h1{
+    letter-spacing: 6px;
+    font-weight: 100px;
+    font-size: 300%;
+ } 
+ .texto-centro{
+    text-align: center;
+ }
+ .texto-centro, .pequenio{
+    letter-spacing: 2px;
+    font-size:90%;
+ }
+ .imagen-ancho{
+    width: 100%;
+    height: auto;
+    display: block;
+ }
+
+ 
+
+ 
